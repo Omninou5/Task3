@@ -12,7 +12,15 @@ namespace Task3.Models
         public string ProductId { get; set; }
         public string ClientId { get; set; }
         public string Number { get; set; }
+
+        /// <summary>
+        /// Требуемое количество товара
+        /// </summary>
         public string Quantity { get; set; }
+
+        /// <summary>
+        /// Дата размещения заявки
+        /// </summary>
         public DateTime Date { get; set; }
     }
 }

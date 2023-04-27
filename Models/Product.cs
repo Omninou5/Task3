@@ -10,7 +10,15 @@ namespace Task3.Models
     {
         public string Id { get; set; }
         public string Name { get; set; }
-        public string Unit { get; set; } // Единица измерения
-        public string Price { get; set; } // Количество за единицу
+
+        /// <summary>
+        /// Единица измерения
+        /// </summary>
+        public string Unit { get; set; }
+        
+        /// <summary>
+        /// Цена за единицу товара
+        /// </summary>
+        public string Price { get; set; }
     }
 }

@@ -11,6 +11,10 @@ namespace Task3.Models
         public string Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
+
+        /// <summary>
+        /// Контактное лицо (ФИО)
+        /// </summary>
         public string Contact { get; set; }
     }
 }
